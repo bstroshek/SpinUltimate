@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>Collection Page Filters</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+
+
+    <!--	font-family: futura-pt-condensed, sans-serif;-->
+    <!--	font-weight: 700;-->
+    <link rel="stylesheet" href="https://use.typekit.net/ldz6gpk.css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="libs/Magnific-Popup-v1.1.0/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/common-styles.css">
+    <link rel="stylesheet" href="css/home-page.css">
+    <link rel="stylesheet" href="css/collection-page.css">
+    <link rel="stylesheet" href="css/product-page.css">
+    <link rel="stylesheet" href="css/about-team-gear.css">
+
+
+
+</head>
+
+<body>
+
+<header class="header">
+    <div class="promo-bar" style="display: none">
+        <div class="promo-bar__inner">
+            <p>FREE SHIPPING ON ALL U.S. ONLINE STORE ORDERS OVER $60</p>
+            <ul class="promo-bar__socials">
+                <li class="footer-links__item"><a href="" class="footer-links__link"><img src="img/_src/home-page/fb.svg" alt="facebook" width="20" height="20"></a></li>
+                <li class="footer-links__item"><a href="" class="footer-links__link"><img src="img/_src/home-page/instagram.svg" alt="instagram" width="20" height="20"></a></li>
+                <li class="footer-links__item"><a href="" class="footer-links__link"><img src="img/_src/home-page/tw.svg" alt="twitter" width="20" height="16"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header__main-wrapper">
+        <div class="header__main">
+
+            <a href="" class="menu-btn" id="nav-toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+
+            <a href="" class="logo"><img class="img-responsive" src="img/_src/home-page/logo2.svg" alt="logo" width="109" height="109"></a>
+            <nav class="main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a href="" class="main-nav__link">SHOP</a></li>
+                    <li class="main-nav__item"><a href="" class="main-nav__link">Cities of Ultimate</a></li>
+                    <li class="main-nav__item item-bordered"><a href="" class="main-nav__link">GIRLS ULTIMATE MOVEMENT</a></li>
+                    <li class="main-nav__item"><a href="" class="main-nav__link">TEAM STORES</a></li>
+                    <li class="main-nav__item active"><a href="" class="main-nav__link">Custom Team Gear</a></li>
+                </ul>
+            </nav>
+            <ul class="header-icons">
+                <li class="header-icons__item"><div class="header-icons__link search-wrapper">
+                    <input type="search" class="site-search" placeholder="Search..." />
+                    <img class="search-icon" src="img/_src/home-page/search2@2x.svg" alt="search" width="18" height="18"></div></li>
+                <li class="header-icons__item item-contact">
+                    <a href="" class="header-icons__link">
+                        <span class="contact-icon">?</span>
+                        <span class="icon-name">Contact</span>
+                    </a>
+
+                </li>
+                <li class="header-icons__item item-user"><a href="" class="header-icons__link"><img src="img/_src/home-page/user.svg" alt="user" width="18" height="18.3"><span class="icon-name">Login</span></a></li>
+                <li class="header-icons__item">
+                    <a href="" class="header-icons__link cart-link"><img class="cart-icon" src="img/_src/home-page/cart2@2x.png" alt="cart" width="21" height="23"><span class="icon-name cart-number">1</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <nav class="mobile-nav" id="nav-toggle">
+        <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="" class="main-nav__link">SHOP</a></li>
+            <li class="main-nav__item"><a href="" class="main-nav__link">CITIES OF ULTIMATE</a></li>
+            <li class="main-nav__item"><a href="" class="main-nav__link">GIRLS ULIMATE MOVEMENT</a></li>
+            <li class="main-nav__item"><a href="" class="main-nav__link">TEAM STORES</a></li>
+            <li class="main-nav__item"><a href="" class="main-nav__link">CUSTOM TEAM GEAR</a></li>
+        </ul>
+    </nav>
+
+
+</header>
+
+<div class="collection-hero bs-collection__hero" style="background-image: url('img/_src/collectio-page/bs-hero@2x.jpg')">
+    <div class="block-container">
+        <div class="text-holder">
+            <h1 class="title">BEST SELLERS</h1>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<section class="collection">
+    <img class="collection-bg-img" src="img/_src/collectio-page/c-bg-img@2x.png" alt="background-image" width="636" height="636">
+
+    <div class="collection__main__top">
+        <div class="block-container">
+            <ul class="filters-menu" id="js-filters-menu">
+                <li class="filters-menu__item title"><a href="" class="filters-menu__link">REFINE BY CATEGORY</a></li>
+                <li class="filters-menu__item"><a href="" class="filters-menu__link">APPAREL</a></li>
+                <li class="filters-menu__item"><a href="" class="filters-menu__link">ACCESSORIES</a></li>
+                <li class="filters-menu__item"><a href="" class="filters-menu__link">DISCS</a></li>
+                <li class="filters-menu__item"><a href="" class="filters-menu__link">SPECIALS</a></li>
+            </ul>
+            <ul class="filters-menu filters-menu-chosen" id="js-filters-chosen">
+                <li class="filters-menu__item title"><a href="" class="filters-menu__link">BEST SELLERS</a></li>
+                <li class="filters-menu__item"><a href="" class="link-chosen">Hoodies</a></li>
+                <li class="filters-menu__item"><a href="" class="link-chosen">SMALL</a></li>
+                <li class="filters-menu__item"><a href="" class="link-clear">Clear All</a></li>
+            </ul>
+            <div class="collection__sort">
+                <div class="collection-select">
+                    <img class="icon" src="img/_src/collectio-page/filter-alt.svg" alt="icon" width="23" height="23">
+                    <select name="collection-select" id="collection-select" class="sort">
+                        <option value="popular">Sort By</option>
+                        <option value="popular1">Popular 1</option>
+                        <option value="popular2">Popular 2</option>
+                        <option value="popular3">Popular 3</option>
+                    </select>
+                </div>
+                <div class="collection__sort__filter">
+                    <div class="btn-filter-block" id="js-filter-btn">
+                        <a href="/" onclick="event.preventDefault()" class="btn filter-btn btn-show"><img src="img/_src/collectio-page/filter1.svg" alt="icon" width="18" height="20" class="btn-icon"> SHOW FILTERS</a>
+                        <a href="/" onclick="event.preventDefault()" class="btn filter-btn btn-close"><img src="img/_src/collectio-page/close@2x.png" alt="icon" width="14" height="14" class="btn-icon"> CLOSE FILTERS</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="block-container">
+
+        <div class="collection__box">
+
+            <div class="col-sidebar" id="js-col-sidebar">
+
+                <div class="col-sidebar__block col-sidebar__block-links">
+                    <h5 class="col-sidebar__title">Browse by:</h5>
+                    <ul class="col-sidebar__list browse-list">
+                        <li class="col-sidebar__item"><a href="" class="col-sidebar__link active">Hoodies</a></li>
+                        <li class="col-sidebar__item"><a href="" class="col-sidebar__link">Neckies</a></li>
+                        <li class="col-sidebar__item"><a href="" class="col-sidebar__link">Shorts</a></li>
+                        <li class="col-sidebar__item"><a href="" class="col-sidebar__link">Hats</a></li>
+                        <li class="col-sidebar__item"><a href="" class="col-sidebar__link">Discs</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sidebar__block">
+                    <h6 class="col-sidebar__title">Color</h6>
+                    <ul class="col-sidebar__list sidebar-color-option">
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/black@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Black</p>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/Ellipse_17@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Blue</p>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/brown@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Brown</p>
+                        </li>
+
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/Ellipse_19@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Green</p>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/gray@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Grey</p>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/multi-color@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Multi-color</p>
+                        </li>
+
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/Ellipse_22@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Orange</p>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/Ellipse_23@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Pink</p>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/Ellipse_24@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Purple</p>
+                        </li>
+
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/Ellipse_25@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Red</p>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/white@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">White</p>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <img src="img/_src/collectio-page/option-color/Ellipse_27@2x.png" alt="color" width="36" height="36">
+                            <p class="col-sidebar__link">Yellow</p>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+
+
+                <div class="col-sidebar__block">
+                    <h6 class="col-sidebar__title">Size</h6>
+                    <ul class="col-sidebar__list">
+                        <li class="col-sidebar__item">
+                            <input type="checkbox" id="XS" name="XS" value="XS">
+                            <label for="XS" class="col-sidebar__link">XS</label>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <input type="checkbox" id="S" name="S" value="S">
+                            <label for="S" class="col-sidebar__link">S</label>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <input type="checkbox" id="M" name="M" value="M">
+                            <label for="M" class="col-sidebar__link">M</label>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <input type="checkbox" id="L" name="L" value="L">
+                            <label for="L" class="col-sidebar__link">L</label>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <input type="checkbox" id="XL" name="L" value="XL">
+                            <label for="XL" class="col-sidebar__link">XL</label>
+                        </li>
+                        <li class="col-sidebar__item">
+                            <input type="checkbox" id="ONE SIZE" name="ONE SIZE" value="ONE SIZE">
+                            <label for="ONE SIZE" class="col-sidebar__link">ONE SIZE</label>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="collection__main">
+                <div class="collection__products">
+                    <div class="product-item">
+                        <span class="badge badge-normal">Unisex</span>
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="badge badge-accent">SALE!</div>
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+
+
+                    <div class="product-item">
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="img-holder">
+                            <img src="img/_src/product-images/col-img1.png" alt="produc image" width="214" height="320">
+                        </div>
+                        <div class="text-holder">
+                            <p class="sub-title">JERSEYS</p>
+                            <p class="title">Forest Full Sub Revolution Hoodie</p>
+                            <p class="price">$64.95</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<section class="shop-collection shop-collection-all">
+
+    <img src="img/_src/collectio-page/shop-al-img.png" alt="" class="img-responsive section-image" width="598" height="550">
+    <div class="shop-collection__box">
+        <div class="shop-collection__item" style="background-image: url('img/_src/collectio-page/shop-all-banner-bg@2x.jpg')">
+            <div class="block-container">
+
+                <div class="text-holder">
+                    <h3 class="title">CUSTOM <img src="img/_src/collectio-page/TEAM%20GEAR.png" alt="" width="372" height="70"></h3>
+                    <p class="sub-title">CUSTOMIZE YOUR TEAM GEAR WITH SPIN!</p>
+                    <a href="" class="btn btn-white">START YOUR CUSTOM GEAR ORDER</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="join newsletter">
+    <div class="block-container">
+        <div class="text-holder">
+            <h2 class="title">Join Our Newsletter</h2>
+            <p class="sub-title">GET 10% OFF OF YOUR FIRST PURCHASE</p>
+        </div>
+        <form method="post" class="join__form">
+            <div class="form-group">
+                <input type="email" class="form-group-input" placeholder="Enter your email address to join" />
+                <a href="" class="btn btn-red">JOIN NOW</a>
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer__inner">
+
+        <div class="footer__top">
+
+            <div class="footer-block">
+                <h4 class="footer-block__title">SHOP</h4>
+                <ul class="footer-block__list">
+                    <li class="footer-block__item"><a href="" class="footer-block__link">Shop All</a></li>
+                    <li class="footer-block__item"><a href="" class="footer-block__link">Cities of Ultimate</a></li>
+                    <li class="footer-block__item"><a href="" class="footer-block__link">Team Stores</a></li>
+                    <li class="footer-block__item"><a href="" class="footer-block__link">Custom Team Gear</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <h4 class="footer-block__title">CUSTOMER SUPPORT</h4>
+                <ul class="footer-block__list">
+                    <li class="footer-block__item"><a href="mailto:Info@SpinUltimate.com" class="footer-block__link">Info@SpinUltimate.com</a></li>
+                    <li class="footer-block__item tel-item"><a href="tel:(404) 736-6499" class="footer-block__link">(404) 736-6499</a></li>
+                    <li class="footer-block__item"><a href="" class="footer-block__link">Contact Us</a></li>
+                    <li class="footer-block__item"><a href="" class="footer-block__link">Returns</a></li>
+                    <li class="footer-block__item"><a href="" class="footer-block__link">Exchanges</a></li>
+                </ul>
+            </div>
+            <div class="footer-block">
+                <h4 class="footer-block__title">SPINFORMATION</h4>
+                <ul class="footer-block__list">
+                    <li class="footer-block__item"><a href="" class="footer-block__link">About Us</a></li>
+                    <li class="footer-block__item"><a href="" class="footer-block__link">Tournament Merch</a></li>
+                    <li class="footer-block__item"><a href="" class="footer-block__link">Work with Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-block footer-links">
+                <h4 class="footer-block__title">Keep in Touch</h4>
+                <ul class="footer-links__list">
+                    <li class="footer-links__item"><a href="" class="footer-links__link"><img src="img/_src/home-page/fb22.svg" alt="facebook" width="27" height="27"></a></li>
+                    <li class="footer-links__item"><a href="" class="footer-links__link"><img src="img/_src/home-page/logo-instagram.svg" alt="instagram" width="25" height="25"></a></li>
+                    <li class="footer-links__item"><a href="" class="footer-links__link"><img src="img/_src/home-page/tw22.svg" alt="twitter" width="27" height="22"></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer__bottom">
+
+        <div class="footer-bottom__links">
+
+            <a href="">Privacy & Security </a>|
+            <a href="">Terms of Use </a>|
+            <a href="">Terms of Service</a>
+
+        </div>
+
+        <p class="footer-copyr">© 2021 Spin Ultimate All Right Reserved</p>
+
+    </div>
+
+</footer>
+
+
+
+<script src="libs/jquery/jquery-3.6.0/jquery-3.6.0.js"></script>
+<script src="libs/jquery-migrate-3.3.2/jquery-migrate-3.3.2.js"></script>
+
+<script src="libs/slick-1.8.1/slick/slick.min.js"></script>
+<!-- Magnific Popup core JS file -->
+<script src="libs/Magnific-Popup-v1.1.0/magnific-popup.js"></script>
+
+<script src="js/common.js"></script>
+
+
+
+
+</body>
+
+
+</html>
