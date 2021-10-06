@@ -1,6 +1,7 @@
 /**/node_modules/
 /**/styles/
 /dist/
+/readme.md/
 /.git/
 /app/css/common-styles.min.css
 /app/css/home-page.min.css

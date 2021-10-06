@@ -287,6 +287,39 @@ $(document).ready(function () {
         ]
     });
 
+
+
+    // Team Store Product Page Slider
+
+    $('.team-store-product-slider').slick({
+        arrows: true,
+        dots: false,
+        slidesToScroll: 1,
+        slidesToShow: 1
+    });
+
+    // Product Page Section Complete Slider
+
+    $('.section-complete__slider').slick({
+        arrows: true,
+        dots: false,
+        slidesToScroll: 1,
+        slidesToShow: 4,
+        responsive: [
+            {
+                breakpoint: 1300,
+                settings: {
+                    infinite: true,
+                    variableWidth: true
+                }
+            }
+
+
+        ]
+    });
+
+
+
 });
 
 
