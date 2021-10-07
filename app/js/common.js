@@ -295,7 +295,26 @@ $(document).ready(function () {
         arrows: true,
         dots: false,
         slidesToScroll: 1,
-        slidesToShow: 1
+        slidesToShow: 1,
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    infinite: true,
+                    variableWidth: true
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    infinite: false,
+                    variableWidth: false
+                }
+            }
+
+
+
+        ]
     });
 
     // Product Page Section Complete Slider
@@ -311,6 +330,15 @@ $(document).ready(function () {
                 settings: {
                     infinite: true,
                     variableWidth: true
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    infinite: false,
+                    variableWidth: false,
+                    slidesToScroll: 1,
+                    slidesToShow: 1
                 }
             }
 

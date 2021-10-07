@@ -1415,20 +1415,43 @@
   right: -55px;
 }
 
-@media (max-width: 1300px) {
-  .team-store-product-slider .slick-slide img {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
+.payment-mobile {
+  display: none;
+}
 
+@media (max-width: 1300px) {
   .section-complete__slider .slick-prev {
     left: 0;
   }
 
   .section-complete__slider .slick-next {
     right: 0;
+  }
+}
+@media (max-width: 1280px) {
+  .product-team .product__info {
+    width: 50%;
+  }
+
+  .team-store-product-slider__wrapper {
+    width: 50%;
+  }
+
+  .team-store-product-slider {
+    width: 80%;
+  }
+
+  .team-store-product-slider .slick-prev {
+    left: -10%;
+  }
+
+  .team-store-product-slider .slick-next {
+    right: -10%;
+  }
+
+  .product-team .product__info {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 @media (max-width: 992px) {
@@ -1451,9 +1474,32 @@
     width: 100%;
   }
 
-  .product-team .product__info {
-    padding-left: 50px;
-    padding-right: 20px;
+  .payment-desktop {
+    display: none;
+  }
+
+  .payment-mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+  }
+  .payment-mobile .payments-info {
+    width: 48%;
+  }
+  .payment-mobile .payment {
+    width: 44%;
+  }
+
+  .team-store-product-slider .slick-slide img {
+    width: 100%;
+    height: auto;
   }
 }
 @media (max-width: 768px) {
@@ -1495,6 +1541,35 @@
 
   .section-complete__title {
     font-size: 28px;
+  }
+
+  .payment-mobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .payment-mobile .payments-info {
+    width: 100%;
+  }
+  .payment-mobile .payment {
+    width: 100%;
+  }
+
+  .section-complete {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 576px) {
+  .section-complete__slider .product-item {
+    margin: 0 auto;
+  }
+
+  .section-complete .block-container {
+    padding: 0 10px;
   }
 }
 /*! Team Store Product Page End */
