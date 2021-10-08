@@ -317,6 +317,8 @@ $(document).ready(function () {
         ]
     });
 
+
+
     // Product Page Section Complete Slider
 
     $('.section-complete__slider').slick({
@@ -343,6 +345,49 @@ $(document).ready(function () {
             }
 
 
+        ]
+    });
+
+    // Product Page Tabs
+
+    $('.tabgroup > div').hide();
+    $('.tabgroup > div:first-of-type').show();
+    $('.tabs a').click(function(e){
+        e.preventDefault();
+        var $this = $(this),
+            tabgroup = '#'+$this.parents('.tabs').data('tabgroup'),
+            others = $this.closest('li').siblings().children('a'),
+            target = $this.attr('href');
+        others.removeClass('active');
+        $this.addClass('active');
+        $(tabgroup).children('div').hide();
+        $(target).show();
+
+    });
+
+
+    // Team Gear Product Page Slider
+
+    $('.team-gear-slider').slick({
+        arrows: true,
+        dots: false,
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    infinite: true,
+                    variableWidth: true
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    infinite: true,
+                    variableWidth: true
+                }
+            }
         ]
     });
 
