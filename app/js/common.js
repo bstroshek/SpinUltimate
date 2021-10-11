@@ -6,6 +6,8 @@ $(window).on('load', function(){
 
 $(document).ready(function () {
 
+
+
     // Header scripts
 
     $('#nav-toggle-btn').click(function (e) {
@@ -348,6 +350,24 @@ $(document).ready(function () {
         ]
     });
 
+
+
+    // Ecommerce Product Page scroll to section
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 700);
+                    return false;
+                }
+            }
+        });
+    });
+
     // Product Page Tabs
 
     $('.tabgroup > div').hide();
@@ -390,6 +410,16 @@ $(document).ready(function () {
             }
         ]
     });
+
+
+
+
+
+    // Ecommerce product page Hero slider unslick
+    $('.ecommerce-hero .main-slider').slick('unslick');
+
+
+
 
 
 
