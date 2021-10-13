@@ -412,11 +412,30 @@ $(document).ready(function () {
     });
 
 
-
-
-
     // Ecommerce product page Hero slider unslick
     $('.ecommerce-hero .main-slider').slick('unslick');
+
+
+    // Regular Product Page Accordion
+
+    $('.product-accordion__toggle').click(function(e) {
+        e.preventDefault();
+
+        var $this = $(this);
+
+        if ($this.next().hasClass('show')) {
+            $this.removeClass('active');
+            $this.next().removeClass('show');
+            $this.next().slideUp(350);
+        } else {
+            $this.parent().parent().find('li .inner').removeClass('show');
+            $this.parent().parent().find('li .inner').slideUp(350);
+            $this.next().toggleClass('show');
+            $('.product-accordion__toggle').removeClass('active');
+            $this.toggleClass('active');
+            $this.next().slideToggle(350);
+        }
+    });
 
 
 
