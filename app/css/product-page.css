@@ -2223,6 +2223,14 @@
   padding: 11px 0 13px 0;
   border: 1px solid #dddddd;
 }
+.regular-product .product__box-team .product__size .size-box .btn:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.regular-product .product__box-team .product__size .size-box .btn.active {
+  background-color: #000000;
+  color: #FFFFFF;
+}
 .regular-product .product__box-team .payment {
   padding: 41px 0 16px;
   border: none;
