@@ -14,6 +14,7 @@
 /app/sass
 /app/not-use-collection-page.html
 /app/not-use-shop-all-collection-page.html
+/app/home-page-old.html
 
 /**/_backstage
 /**/package-lock.json

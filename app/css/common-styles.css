@@ -1819,3 +1819,34 @@ a {
     padding-bottom: 25px;
   }
 }
+.section-title {
+  text-align: center;
+  color: #000000;
+}
+.section-title .title {
+  font-family: futura-pt-condensed, sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+.section-title .text {
+  font-family: futura-pt, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .section-title .title {
+    font-size: 36px;
+    line-height: 38px;
+  }
+
+  .section-title .text {
+    font-size: 16px;
+  }
+}
