@@ -438,6 +438,17 @@ $(document).ready(function () {
     });
 
 
+    // About Bulk Ordering Page slider
+
+    $('.bulk-slider').slick({
+        arrows: true,
+        dots: false,
+        slidesToScroll: 1,
+        slidesToShow: 1
+    });
+
+
+
 
 
 
