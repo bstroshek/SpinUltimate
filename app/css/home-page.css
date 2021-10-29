@@ -1490,14 +1490,15 @@
 }
 @media (max-width: 578px) {
   .home-collections-upd .title-box .title {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
   }
   .home-collections-upd .title-box .title span {
-    display: none;
+    margin: 0 10px;
+    font-size: 28px;
   }
 
   .gear-links {
@@ -1564,6 +1565,11 @@
 @media (max-width: 380px) {
   .ecommerce-hero.home-hero .main-slider {
     height: 450px;
+  }
+
+  .home-collections {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 /*! Home Page Updates End */
