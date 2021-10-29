@@ -448,6 +448,47 @@ $(document).ready(function () {
     });
 
 
+    // Home Page updates
+
+    $('.home-hero .main-slider').slick({
+        infinite: true,
+        arrows: true,
+        dots: true,
+        adaptiveHeight: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+
+    });
+
+
+    // Home Page Upd reviews Slider
+
+    $('.read-reviews__slider ').slick({
+        arrows: true,
+        dots: false,
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        centerMode: true,
+        adaptiveHeight: true,
+        variableWidth: true,
+        appendArrows:'.read-reviews__arrows',
+        responsive: [
+            {
+                breakpoint: 680,
+                settings: {
+                    centerMode: false,
+                    infinite: false,
+                    variableWidth: false,
+                    slidesToScroll: 1,
+                    slidesToShow: 1
+                }
+            }
+
+
+        ]
+    });
+
+
 
 
 
