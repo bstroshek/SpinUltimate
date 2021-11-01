@@ -14,6 +14,23 @@
   top: 50px;
   z-index: 2;
 }
+.about-what .text-holder {
+  margin-right: 6%;
+}
+
+.stores-benefits {
+  position: relative;
+}
+.stores-benefits .section-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.stores-benefits .block-container {
+  position: relative;
+  z-index: 2;
+}
 
 @media (max-width: 1200px) {
   .about-what {
@@ -55,6 +72,12 @@
   }
 }
 @media (max-width: 768px) {
+  .stores-hero .sub-title {
+    display: block;
+    width: 140px;
+    height: auto;
+  }
+
   .about-what__products {
     width: 300px;
     height: auto;
@@ -108,5 +131,18 @@
 @media (max-width: 610px) {
   .about-what .bulk-slider-label {
     left: calc(50% + 90px);
+  }
+}
+@media (min-width: 1440px) {
+  .bulk-start .slider-holder {
+    max-width: 52%;
+  }
+
+  .about-what .text-holder {
+    margin-right: 5%;
+  }
+
+  .about-what .bulk-slider-label {
+    left: 563px;
   }
 }
