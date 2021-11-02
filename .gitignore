@@ -12,9 +12,8 @@
 /app/js/scripts.min.js
 /app/libs/bootstrap
 /app/sass
-/app/not-use-collection-page.html
-/app/not-use-shop-all-collection-page.html
-/app/home-page-old.html
+/app/not-used-html
+/app/index.html
 
 /**/_backstage
 /**/package-lock.json

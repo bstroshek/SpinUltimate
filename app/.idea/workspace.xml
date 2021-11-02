@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e52f1f2-fbac-4cf0-97ef-3bafe9ec66cd" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="0e52f1f2-fbac-4cf0-97ef-3bafe9ec66cd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/css/about-bulk.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about-bulk.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about-stores.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about-stores.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about-team-gear.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about-team-gear.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product-page.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectId" id="20NObRtj9jEilPOVE2TDpj41N1n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
@@ -86,13 +96,18 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0e52f1f2-fbac-4cf0-97ef-3bafe9ec66cd" name="Default" comment="" />
@@ -101,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631003319728</updated>
       <workItem from="1631003321914" duration="389000" />
+      <workItem from="1635881652420" duration="38000" />
     </task>
     <servers />
   </component>
@@ -131,13 +147,9 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
   </component>
 </project>
