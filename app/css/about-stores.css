@@ -1,164 +1,140 @@
 .about-what__products {
-	position: absolute;
-	left: -61px;
-	right: auto;
+  position: absolute;
+  left: -61px;
+  right: auto;
 }
 
 .about-what .site-img {
-	position: absolute;
-	left: 370px;
-	bottom: 0;
+  position: absolute;
+  left: 370px;
+  bottom: 0;
 }
-
 .about-what .bulk-slider-label {
-	left: 531px;
-	top: 50px;
-	z-index: 2;
+  left: 531px;
+  top: 50px;
+  z-index: 2;
 }
-
 .about-what .text-holder {
-	margin-right: 6%;
+  margin-right: 6%;
 }
 
 .stores-benefits {
-	position: relative;
+  position: relative;
 }
-
 .stores-benefits .section-image {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
 }
-
 .stores-benefits .block-container {
-	position: relative;
-	z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 @media (max-width: 1200px) {
-	.about-what {
-		-webkit-box-pack: justify;
-		-webkit-justify-content: space-between;
-		-ms-flex-pack: justify;
-		justify-content: space-between;
-	}
-
-	.about-what .text-holder {
-		max-width: 268px;
-		padding-right: 40px;
-	}
+  .about-what {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .about-what .text-holder {
+    max-width: 268px;
+    padding-right: 40px;
+  }
 }
-
 @media (max-width: 1100px) {
-	.about-what .text-holder {
-		padding-right: 40px;
-	}
+  .about-what .text-holder {
+    padding-right: 40px;
+  }
 }
-
 @media (max-width: 992px) {
-	.about-what .text-holder {
-		padding: 0 40px;
-		max-width: 100%;
-	}
+  .about-what .text-holder {
+    padding: 0 40px;
+    max-width: 100%;
+  }
 
-	.about-what .slider-holder {
-		margin-bottom: 100px;
-	}
+  .about-what .slider-holder {
+    margin-bottom: 100px;
+  }
 
-	.about-what__products {
-		left: 0;
-	}
+  .about-what__products {
+    left: 0;
+  }
 
-	.about-what .site-img {
-		left: 422px;
-	}
+  .about-what .site-img {
+    left: 422px;
+  }
 
-	.about-what .bulk-slider-label {
-		left: 612px;
-	}
+  .about-what .bulk-slider-label {
+    left: 612px;
+  }
 }
-
 @media (max-width: 768px) {
-	.stores-hero .sub-title {
-		display: block;
-		width: 140px;
-		height: auto;
-	}
+  .stores-hero .sub-title {
+    display: block;
+    width: 140px;
+    height: auto;
+  }
 
-	.about-what__products {
-		width: 300px;
-		height: auto;
-	}
+  .about-what__products {
+    width: 300px;
+    height: auto;
+  }
 
-	.about-what .site-img {
-		left: 300px;
-	}
+  .about-what .site-img {
+    left: 300px;
+  }
 
-	.about-what .bulk-slider-label {
-		left: 477px;
-	}
+  .about-what .bulk-slider-label {
+    left: 477px;
+  }
 
-	.about-what .slider-holder {
-		margin-bottom: 50px;
-	}
+  .about-what .slider-holder {
+    margin-bottom: 50px;
+  }
 }
-
 @media (max-width: 680px) {
-	.about-what__products {
-		width: 240px;
-	}
+  .about-what__products {
+    width: 240px;
+  }
 
-	.about-what .site-img {
-		left: 240px;
-	}
+  .about-what .site-img {
+    left: 240px;
+  }
 }
-
 @media (max-width: 610px) {
-	.about-what__products {
-		display: none;
-	}
+  .about-what__products {
+    display: none;
+  }
 
-	.about-what .site-img {
-		left: 50%;
-		-webkit-transform: translateX(-50%);
-		-ms-transform: translateX(-50%);
-		transform: translateX(-50%);
-	}
+  .about-what .site-img {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
 
-	.about-what .bulk-slider-label {
-		left: calc(50% + 115px);
-		-webkit-transform: translateX(-50%);
-		-ms-transform: translateX(-50%);
-		transform: translateX(-50%);
-	}
+  .about-what .bulk-slider-label {
+    left: calc(50% + 115px);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
 }
-
 @media (max-width: 480px) {
-	.about-what .bulk-slider-label {
-		top: 78px;
-	}
+  .about-what .bulk-slider-label {
+    top: 78px;
+  }
 }
-
 @media (max-width: 610px) {
-	.about-what .bulk-slider-label {
-		left: calc(50% + 90px);
-	}
+  .about-what .bulk-slider-label {
+    left: calc(50% + 90px);
+  }
 }
-
 @media (min-width: 1440px) {
-	.bulk-start .slider-holder {
-		max-width: 52%;
-	}
-
-	.about-what .text-holder {
-		margin-right: 5%;
-	}
-
-	.about-what .bulk-slider-label {
-		left: 563px;
-	}
-}tart .slider-holder {
+  .bulk-start .slider-holder {
     max-width: 52%;
   }
 

@@ -934,6 +934,13 @@
   width: auto;
 }
 
+.collection-hero .title.font-outline {
+  line-height: 1;
+  -webkit-transform: translateX(-30px);
+      -ms-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+
 @media (max-width: 1380px) {
   .collection-hero .block-container {
     max-width: 1000px;
@@ -1176,6 +1183,12 @@
 
   .newsletter .text-holder .sub-title {
     font-size: 28px;
+  }
+
+  .collection-hero .title.font-outline {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
   }
 }
 @media (max-width: 680px) {
