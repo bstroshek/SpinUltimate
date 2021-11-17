@@ -1,0 +1,219 @@
+.tournament-hero{
+	height: 370px;
+	padding-bottom: 50px;
+}
+
+.tournament-hero .title{
+	font-size: 82px;
+	line-height: 82px;
+}
+
+.tournament-hero .text-holder:after{
+	display: none;
+}
+
+.tournament-hero .block-container{
+	max-width: 1300px;
+}
+
+.offer.text-images{
+	padding: 85px 0;
+}
+
+.offer.text-images .block-container{
+	max-width: 1400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.offer.text-images .offer__text{
+	width: 50%;
+	padding: 0 20px;
+	color: #7b7b7b;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.offer.text-images .offer__text h2{
+	font-family: futura-pt-condensed, sans-serif;
+	font-style: oblique;
+	font-weight: 700;
+	color: #000;
+	font-size: 52px;
+	line-height: 52px;
+	margin: 0 0 28px;
+	letter-spacing: 0.035em;
+	text-transform: uppercase;
+}
+
+.offer.text-images .offer__text .inner{
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.offer.text-images .offer__images{
+	width: 50%;
+	padding: 0 20px 60px;
+	position: relative;
+}
+
+.offer.text-images .offer__images img{
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+
+.offer.text-images .offer__images .main-image{
+	margin: 0;
+}
+
+.offer.text-images .offer__images .main-image + .add-image{
+	position: absolute;
+	bottom: 30px;
+	left: -50px;
+	box-shadow: 3px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.merch.text-columns{
+	background-color: #00a7e1;
+	color: #fff;
+	position: relative;
+	padding: 60px 0;
+}
+
+.merch.text-columns h2{
+	font-family: futura-pt-condensed, sans-serif;
+	font-style: oblique;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 52px;
+	text-align: center;
+	letter-spacing: 0.035em;
+	text-transform: uppercase;
+	margin: 0 0 50px;
+}
+
+.merch.text-columns .img-bg-left{
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+}
+
+.merch.text-columns .img-bg-right{
+	position: absolute;
+	bottom: -40px;
+	right: 0;
+}
+
+.merch__columns{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.merch__columns--column{
+	width: 25%;
+	padding: 0 30px;
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.merch__columns--column:nth-child(4n - 3){
+	border: none;
+}
+
+.merch.text-columns h3{
+	font-family: futura-pt-condensed, sans-serif;
+	font-style: oblique;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	text-transform: uppercase;
+	margin: 0 0 5px;
+}
+
+.merch.text-columns p{
+	margin: 0 0 10px;
+}
+
+.get-started{
+	padding: 90px 0;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.get-started .block-container h2{
+	font-family: futura-pt-condensed, sans-serif;
+	font-style: oblique;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #000;
+	max-width: 615px;
+	margin: 0 auto 10px;
+	text-align: center;
+}
+
+.get-started .block-container > p{
+	max-width: 615px;
+	margin: 0 auto 74px;
+	text-align: center;
+	color: #595959;
+	font-size: 24px;
+	line-height: 1.4;
+}
+
+.get-started .block-container > p a{
+	text-decoration: none;
+	color: #ff4612;
+}
+
+.get-started__inner{
+	background-color: #f8f8f8;
+	color: #000;
+	max-width: 1012px;
+	margin: 0 auto 10px;
+	font-size: 18px;
+	line-height: 1.4;
+	padding: 25px 30px;
+}
+
+.get-started__inner h3{
+	margin: 0 0 5px;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.get-started__inner p{
+	margin: 0 0 10px;
+}
+
+@media (max-width: 768px) {
+	.tournament-hero .title {
+		font-size: 56px;
+		line-height: 56px;
+	}
+	.offer.text-images .offer__text{
+		width: 100%;
+		padding: 0;
+	}
+	.offer.text-images .offer__images{
+		width: 100%;
+		padding: 0 0 10px;
+		position: relative;
+	}
+	.merch__columns--column{
+		width: 100%;
+		padding: 0 0 30px;
+		border: none;
+	}
+	.offer.text-images .offer__images .main-image + .add-image{
+		position: relative;
+		bottom: auto;
+		left: auto;
+		box-shadow: 3px 10px 30px rgba(0, 0, 0, 0.5);
+		margin: -30px 20px 0;
+	}
+}
