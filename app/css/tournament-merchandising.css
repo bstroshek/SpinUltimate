@@ -224,4 +224,7 @@
 		font-size: 46px;
 		line-height: 46px;
 	}
+	.merch.text-columns .img-bg-left{
+		display: none;
+	}
 }
