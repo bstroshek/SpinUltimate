@@ -216,4 +216,12 @@
 		box-shadow: 3px 10px 30px rgba(0, 0, 0, 0.5);
 		margin: -30px 20px 0;
 	}
+	.offer.text-images {
+		padding: 45px 0;
+	}
+	.offer.text-images .offer__text h2,
+	.merch.text-columns h2{
+		font-size: 46px;
+		line-height: 46px;
+	}
 }
