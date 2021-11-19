@@ -491,6 +491,31 @@ $(document).ready(function () {
 
 
 
+    $('.input-control').on('focus blur', function(e){
+       if(!$(this).val())$(this).parent()[e.type === 'focus' ? 'addClass' : 'removeClass']('input-focused');
+    });
+
+    /* custom input file */
+
+    $('#falseinput').click(function(){
+        $("#fileinput").click();
+        $(this).parent().parent().addClass('active-file');
+    });
+
+    $('#fileinput').change(function() {
+      $('#selected_filename').text($('#fileinput')[0].files[0].name);
+      $(this).parent().addClass('active-file');
+    });
+
+    $('#falseinput1').click(function(){
+        $("#fileinput1").click();
+        $(this).parent().parent().addClass('active-file');
+    });
+
+    $('#fileinput1').change(function() {
+      $('#selected_filename1').text($('#fileinput1')[0].files[0].name);
+      $(this).parent().addClass('active-file');
+    });
 
 
 
