@@ -5,6 +5,16 @@
 	text-align: center;
 }
 
+.about-us-hero .scroll-btn{
+	position: absolute;
+	bottom: -20px;
+	left: calc(50% - 20px);
+}
+
+.about-us-hero .scroll-btn img{
+	vertical-align: top;
+}
+
 .about-us-hero .block-container{
 	padding-top: 0;
 }
@@ -13,6 +23,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	opacity: 0.44;
 }
 
 .about-us-hero .bg-img-left img{
@@ -23,6 +34,7 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	opacity: 0.44;
 }
 
 .about-us-hero .bg-img-right img{
@@ -61,7 +73,7 @@
 }
 
 #about.section-text-image .block-container{
-	max-width: 1400px;
+	max-width: 1440px;
 }
 
 .about-text-image{
