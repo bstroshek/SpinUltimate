@@ -488,7 +488,15 @@ $(document).ready(function () {
         ]
     });
 
+    /* contact form popup */
 
+    $('.contact-section .open-popup').click(function(){
+        $("body").addClass('active-popup');
+    });
+
+    $('.contact-section .close-popup').click(function(){
+        $("body").removeClass('active-popup');
+    });
 
 
     $('.input-control').on('focus blur', function(e){
